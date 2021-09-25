@@ -1,0 +1,82 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("back.jpg");
+    backdrop-filter: blur(4px);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.wrapper {
+    margin-top: 100px;
+    margin-left: 250px;
+    width: 60%;
+    height: 70%;
+    box-shadow: 2px 2px 3px 4px rgb(120, 24, 10);
+    background-color: rgba(255, 255, 255, 1);
+    border-radius: 15px;
+}
+
+h1 {
+    text-align: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+    color: #5f4f55;
+    font-size: 45px;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 40px;
+    font-weight: bold;
+    font-size: 70px;
+}
+
+.button {
+    display: inline;
+}
+
+button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 50px ;
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    min-width: 150px;
+    outline: none;
+    border: none;
+    height: 55px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+    font-size: 15px;
+}
+
+button:hover{
+    color: #fff;
+    font-size: 17px;
+}
+
+#increment-btn {
+    background: #ef233c;
+    margin-left: 180px;
+}
+
+#save-btn {
+    background: rgb(43, 175, 43);
+    margin-left: 150px;
+}
+
+p {
+    margin-top: 40px;
+    padding-left: 50px;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
